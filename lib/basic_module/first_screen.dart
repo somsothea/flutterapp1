@@ -9,7 +9,7 @@ class FirstScreen extends StatelessWidget {
         "https://cdn.pixabay.com/photo/2024/03/15/18/53/magnolia-flower-8635583_1280.jpg";
     return Scaffold(
       endDrawer: const Drawer(
-        backgroundColor: Colors.amber,
+        backgroundColor: Color.fromARGB(255, 157, 154, 143),
       ),
       drawer: Drawer(
         child: Image.network(

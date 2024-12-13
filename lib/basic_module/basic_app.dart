@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app1/basic_module/first_screen.dart';
+import 'package:flutter_app1/basic_module/homework.dart';
 
 class BasicApp extends StatelessWidget {
   const BasicApp({super.key});
@@ -9,7 +9,7 @@ class BasicApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: FirstScreen(),
+      home: Post(),
     );
   }
 }
